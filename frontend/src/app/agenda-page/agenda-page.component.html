@@ -1,0 +1,29 @@
+<div class="rubrique">
+  <h2>Nos horaires  : </h2>
+</div>
+
+<p>Veuillez trouver ci-dessous nos horaires : </p>
+<table>
+  <tr>
+    <td>Jour</td>
+    <td>Heure d'ouverture</td>
+    <td>Heure de fermeture</td>
+  </tr>
+  <tr *ngFor="let horaire of horaires | async ">
+    <td >{{horaire.day}}</td>
+    <td >{{horaire.opening}}</td>
+    <td >{{horaire.closing}}</td>
+  </tr>
+</table>
+
+<p>Veuillez trouver ci-dessous nos fermetures exceptionnelles : </p>
+<table>
+  <tr>
+    <td>Jour</td>
+    <td>Date</td>
+  </tr>
+  <tr *ngFor="let fermeture of fermetures | async ">
+    <td >{{ fermeture.day }}</td>
+    <td >{{ fermeture.date }}</td>
+  </tr>
+</table>

@@ -1,0 +1,42 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+
+[
+ {
+ "day": "Lundi",
+ "opening": "9h",
+ "closing": "17h"
+ },
+ {
+ "day": "Mardi",
+ "opening": "9h",
+ "closing": "17h"
+ },
+ {
+ "day": "Mercredi",
+ "opening": "9h",
+ "closing": "17h"
+ },
+ {
+ "day": "Jeudi",
+ "opening": "9h",
+ "closing": "17h"
+ },
+ {
+ "day": "Vendredi",
+ "opening": "9h",
+ "closing": "17h"
+ },
+ {
+ "day": "Samedi",
+ "opening": "9h",
+ "closing": "17h"
+ },
+ {
+ "day": "Dimanche",
+ "opening": "9h",
+ "closing": "17h"
+ }
+]

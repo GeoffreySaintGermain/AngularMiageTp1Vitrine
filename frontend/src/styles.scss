@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.rubrique {
+    text-align: center;
+    height:80px;
+    width:100%;
+    background-color: rgb(109, 109, 109);
+}
+
+.rubrique h2 {
+    color:white;
+    padding-top: 20px;
+    
+}
+
+.infosPerso {
+    font-weight:bold;
+    color:goldenrod;
+}
+
+p {
+    padding:15px;
+    text-align: justify;
+}

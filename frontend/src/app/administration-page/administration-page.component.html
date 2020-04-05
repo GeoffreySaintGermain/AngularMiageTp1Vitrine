@@ -1,0 +1,16 @@
+<h1>Administration</h1>
+
+<mat-card>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="mailfield">Mail : </label>
+            <input id="mailfield" type="mail" formControlName="mail" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label for="passwordfield">Mot de passe : </label>
+            <input id="passwordfield" type="password" formControlName="password" class="form-control"/>
+        </div>
+        <button type="submit"  [disabled]="form.invalid" class="btn btn-success">Connexion</button>
+    </form>
+</mat-card>
+

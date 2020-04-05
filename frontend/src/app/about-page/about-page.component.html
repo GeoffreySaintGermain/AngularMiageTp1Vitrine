@@ -1,0 +1,54 @@
+<div class="rubrique">
+    <h2>Pourquoi le local ?</h2>
+</div>
+
+
+<p>Grâce à un fabricant local, la marge de manœuvre en termes de contrôle est bien plus grande. En effet, plus 
+le lieu de production est éloigné, plus la communication avec celui-ci est compliquée. Le risque de mauvaises 
+surprises est multiplié, par exemple en ce qui concerne la qualité des matériaux que vous souhaitiez.
+
+En effet, les avantages liés à la qualité pour une usine locale sont nombreux :
+
+Un meilleur contrôle sur ce qui est produit et le respect des standards de qualités.
+La possibilité d’accéder aux matériaux, les toucher et de savoir si celui-ci conviendra vraiment à votre objet.
+Une communication facilitée par la proximité d’un producteur local par rapport à une usine étrangère située à 
+l’autre bout du monde.
+À chaque étape de la fabrication, une usine locale offre davantage de contrôle sur la qualité.</p>
+
+<div class="rubrique">
+    <h2>Ses avantages :</h2>
+</div>
+<p>La demande grandissante pour un retour aux circuits courts, à une production plus responsable et avec un fort potentiel écologique bouleverse nos modes de productions et de consommations et n’est plus aujourd’hui un mouvement isolé.
+
+L’utilisation de services de production locaux comme Sculpteo(situé à la fois aux États-Unis et en Europe) permet de créer de la valeur ajoutée dans plusieurs secteurs :
+
+Vous encouragez la croissance locale en soutenant la création d’emploi.
+Vous avez un regard direct sur les conditions de travail dans l’usine que vous choisissez et donc limitez les
+risques d’exploitation abusive ainsi que de sécurité (même si toutes les entreprises de fabrications locales ne 
+sont pas irréprochables, vous avez un contrôle accru sur ce qu’il s’y passe).
+Vous limitez votre empreinte énergétique avec la réduction des distances de transports. Cet effet est écologiquement 
+intéressant et à la fois économiquement profitable, car elle permet des réductions sur les coûts de transports, 
+ce qui n’est pas anodin non plus quand on considère que l’énergie à bas prix ne durera pas pour toujours !
+Et ce n’est qu’un aperçu des possibilités pour produire votre idée ! Il est intéressant de noter que, même si 
+la délocalisation de la fabrication à l’étranger semble attractive à première vue, les possibilités de produire 
+localement font concurrence et offrent un meilleur contrôle de la qualité, de la propriété intellectuelle et des 
+conditions de production.</p>
+
+<div class="rubrique">
+    <h2>Nos produits : </h2>
+</div>
+
+<p>Nous vendons trois types de produits. Voici nos produits :</p>
+<table>
+    <tr>
+        <td>Nom</td>
+        <td>Quantité</td>
+        <td>Prix</td>
+    </tr>
+    <tr *ngFor="let produit of produits | async ">
+        <td> {{ produit.name }} </td>
+        <td> {{ produit.amount }} </td>
+        <td> {{ produit.price }} </td>
+    </tr>
+</table>
+
